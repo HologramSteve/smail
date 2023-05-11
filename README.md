@@ -5,3 +5,6 @@ Scratchmail is a mail software in scratch! It uses timmccool's scratchattach to 
 
 ## Where can i see it?
 At the moment, its WIP so you cant use it.
+
+## How does it work?
+Look at [howitworks.md for more info](https://google.com)
