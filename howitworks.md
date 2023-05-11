@@ -43,3 +43,9 @@ def getmail(id):
 ```
 This funtion is split into multiple parts, first it imports the json module and it opens the file. Then it sets the "mail" variable to the targeted item in the database, then it will set variables to all data from the email and make a list from it. Finnaly it will return the list.
 Once a value is returned from the getmail function, it returns that value to the client.
+Then scratch requests each mail from the user, this is to let more users use requests at the same time. This works with this simple request:
+```
+@server.request
+def getmailby(id):
+  return getmail(id)
+```
