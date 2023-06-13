@@ -57,7 +57,7 @@ new_email = {
     "sendto": "jane@example.com"
 }
 add_email(','.join(new_email.values()))
-
+```
 # Credits
 
 We would like to extend our heartfelt appreciation to the following individuals for their valuable contributions to this project:
