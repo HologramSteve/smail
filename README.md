@@ -57,3 +57,14 @@ new_email = {
     "sendto": "jane@example.com"
 }
 add_email(','.join(new_email.values()))
+
+# Credits
+
+We would like to extend our heartfelt appreciation to the following individuals for their valuable contributions to this project:
+
+- General Project Director & Head Coder: [@radijz on Scratch](https://scratch.mit.edu/users/radijz)
+- Art Director: [@Ghostwolf827 on Scratch](https://scratch.mit.edu/users/Ghostwolf827)
+
+We would also like to give special recognition to [@Timmccool](https://scratch.mit.edu/users/Timmccool) for creating the Scratchattach Python module. This module played a crucial role in enabling the communication between our program and the Scratch platform. You can find the Scratchattach module on [the github page](https://github.com/timmccool/scratchattach).
+
+Thank you to all the individuals mentioned above for their exceptional contributions, dedication, and talent, which have greatly enriched this project!
