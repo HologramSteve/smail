@@ -58,6 +58,33 @@ new_email = {
 }
 add_email(','.join(new_email.values()))
 ```
+
+## Database Structure
+
+The `db.json` file serves as the database for storing email information. It follows a JSON (JavaScript Object Notation) format, which is a lightweight data-interchange format. The structure of the database is as follows:
+
+```json
+{
+  "mail-1": [
+    {
+      "title": "Email 1 Title",
+      "content": "This is the content of Email 1.",
+      "author": "John Doe",
+      "sendto": "jane@example.com"
+    }
+  ],
+  "mail-2": [
+    {
+      "title": "Email 2 Title",
+      "content": "This is the content of Email 2.",
+      "author": "Jane Smith",
+      "sendto": "john@example.com"
+    }
+  ],
+  ...
+}
+```
+
 # Credits
 
 We would like to extend our heartfelt appreciation to the following individuals for their valuable contributions to this project:
