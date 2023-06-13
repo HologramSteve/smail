@@ -62,3 +62,29 @@ new_email = {
 }
 add_email(','.join(new_email.values()))
 ```
+## Databasestructuur
+
+Het bestand `db.json` fungeert als de database voor het opslaan van e-mailinformatie. Het volgt het JSON (JavaScript Object Notation) formaat, dat een lichtgewicht gegevensuitwisselingsformaat is. De structuur van de database is als volgt:
+
+```json
+{
+  "mail-1": [
+    {
+      "title": "Titel van E-mail 1",
+      "content": "Dit is de inhoud van E-mail 1.",
+      "author": "Jan Jansen",
+      "sendto": "jane@example.com"
+    }
+  ],
+  "mail-2": [
+    {
+      "title": "Titel van E-mail 2",
+      "content": "Dit is de inhoud van E-mail 2.",
+      "author": "Jane Smith",
+      "sendto": "john@example.com"
+    }
+  ],
+  ...
+}
+````
+# ! HET LAATSTE GEDEELTE IS ENKEL IN HET ENGELS !
