@@ -84,6 +84,15 @@ The `db.json` file serves as the database for storing email information. It foll
   ...
 }
 ```
+## Compatibility Note
+
+Please note that the current implementation of the program may not work as expected on the Replit platform due to certain compatibility limitations.
+
+Replit does not provide native support for some specific features or dependencies required by this program. As a result, certain functionalities may not work as intended when running the program on Replit.
+
+To ensure the program functions properly, it is recommended to run it on a local development environment or an alternative platform that supports the required dependencies and features.
+
+We apologize for any inconvenience caused by this compatibility limitation. If you encounter any issues while running the program on Replit, we recommend exploring alternative deployment options to ensure full functionality.
 
 # Credits
 
